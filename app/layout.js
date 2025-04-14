@@ -1,7 +1,10 @@
 import { Poppins } from 'next/font/google'
 import './globals.css';
+import { Toaster } from '@/components/ui/sonner'
+import { cn } from '@/lib/utils';
 
 const poppins = Poppins({
+  variable: '--font-poppins',
   subsets: ['latin'],
   weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900']
 })
@@ -14,8 +17,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body className={poppins.className}>
+      <body className={cn(`poppins.className`)}>
         {children}
+        <Toaster />
       </body>
     </html>
   )
