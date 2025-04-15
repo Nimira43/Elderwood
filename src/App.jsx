@@ -1,8 +1,10 @@
 const App = () => {
   return (
-    <div>
-      <h1>Elderwood</h1>
-    </div>
+    <main>
+      <div>
+        <h1>Elderwood</h1>
+      </div>
+    </main>
   )
 }
 
