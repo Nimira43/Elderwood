@@ -1,4 +1,4 @@
-function App() {
+const App = () => {
   return (
     <div>
       <h1>Elderwood</h1>
@@ -7,4 +7,5 @@ function App() {
 }
 
 export default App
+
 
