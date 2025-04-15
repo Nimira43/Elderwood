@@ -30,9 +30,11 @@ const Hero = () => {
                   </span>  
                 </span>
               </h1>
+              
               <h1>solutions for the</h1>
               <h1>Evolving Digital World.</h1>
             </div>
+            <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>Hi, I'm Nick, a developer from England with a love for coding.</p>
           </div>
         </header>
       </div>
