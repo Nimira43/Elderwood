@@ -38,7 +38,11 @@ const Hero = () => {
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
               Hi, I'm Nick, a developer from England with a love for coding.
             </p>
-            <Button />
+            <Button
+              className='md:w-80 md:h-16 w-60 h-12'
+              id='button'
+              text='See my Work'
+            />
           </div>
         </header>
       </div>
