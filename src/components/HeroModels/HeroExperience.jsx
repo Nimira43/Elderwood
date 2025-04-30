@@ -1,9 +1,15 @@
 import { OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import React from 'react'
+import { useMediaQuery } from 'react-responsive'
 
 const HeroExperience = () => {
-  const isTablet = 
+  const isTablet = useMediaQuery({
+    query: '(max-width: 1024px)'
+  })
+  const isMobile = useMediaQuery({
+    query: '(max-width: 768px)'
+  })
   
   return (
     <Canvas
