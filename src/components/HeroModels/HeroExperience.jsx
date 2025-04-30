@@ -1,3 +1,4 @@
+import { OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import React from 'react'
 
@@ -16,6 +17,7 @@ const HeroExperience = () => {
         position={[5, 5, 5]}
         intensity={1}
       />
+      <OrbitControls />
       <mesh>
         <boxGeometry args={[1, 1, 1]} />
         <meshStandardMaterial color='orange' />
