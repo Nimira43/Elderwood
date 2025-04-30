@@ -24,7 +24,7 @@ const HeroExperience = () => {
       />
       <directionalLight
         position={[5, 5, 5]}
-        intensity={1}
+        intensity={2}
       />
       <OrbitControls
         enablePan={false}
@@ -34,7 +34,12 @@ const HeroExperience = () => {
         minPolarAngle={Math.PI / 5}
         maxPolarAngle={Math.PI / 2}
       />
-      <Room />
+      <group
+        scale={isMobile ? 0.7 : 1}
+        position={[0, -3.5, 0]}
+      >
+        <Room />
+      </group>
     </Canvas>
   )
 }
