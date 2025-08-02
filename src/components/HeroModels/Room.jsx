@@ -1,7 +1,8 @@
 import React from 'react'
-import { useGLTF } from '@react-three/drei'
+import { useGLTF, useTexture } from '@react-three/drei'
 
 export function Room(props) {
+  const matcapTexture = useTexture('/images/textures/mat1.png')
   const { nodes, materials } = useGLTF('/models/optimized-room.glb')
   return (
     <group {...props} dispose={null}>
