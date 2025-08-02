@@ -1,5 +1,5 @@
 import React from 'react'
-import * as THREE from 'three00'
+import * as THREE from 'three'
 import { useGLTF, useTexture } from '@react-three/drei'
 
 export function Room(props) {
@@ -10,7 +10,7 @@ export function Room(props) {
 
   return (
     <group {...props} dispose={null}>
-      <mesh geometry={nodes._________6_blinn1_0.geometry} material={materials.blinn1} />
+      <mesh geometry={nodes._________6_blinn1_0.geometry} material={curtainMaterial} />
       <mesh geometry={nodes.body1_blinn1_0.geometry} material={materials.blinn1} />
       <mesh geometry={nodes.cabin_blinn1_0.geometry} material={materials.blinn1} />
       <mesh geometry={nodes.chair_body_blinn1_0.geometry} material={materials.blinn1} />
