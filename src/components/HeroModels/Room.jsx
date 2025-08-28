@@ -36,6 +36,14 @@ export function Room(props) {
     color: '#000'
   })
 
+  const screenMaterial = new THREE.MeshStandardMaterial({
+    color: '#ffffff',
+    emissive: '#4cc9f0',
+    emissiveIntensity: 2,
+    toneMapped: false
+  })
+
+
   return (
     <group {...props} dispose={null}>
       {/* <EffectComposer>
