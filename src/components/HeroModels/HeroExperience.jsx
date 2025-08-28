@@ -20,7 +20,7 @@ const HeroExperience = () => {
         fov: 45
       }}>
       <HeroLights />
-      <Particles />
+      <Particles  count={500}/>
       <OrbitControls
         enablePan={false}
         enableZoom={!isTablet}
