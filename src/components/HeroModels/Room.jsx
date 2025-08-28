@@ -1,6 +1,7 @@
 import React from 'react'
 import * as THREE from 'three'
 import { useGLTF, useTexture } from '@react-three/drei'
+import { EffectComposer, SelectiveBloom } from '@react-three/postprocessing'
 
 export function Room(props) {
   const matcapTexture = useTexture('/images/textures/mat1.png')
@@ -35,6 +36,7 @@ export function Room(props) {
 
   return (
     <group {...props} dispose={null}>
+      <Effec
       <mesh geometry={nodes._________6_blinn1_0.geometry} material={curtainMaterial} />
       
       <mesh geometry={nodes.body1_blinn1_0.geometry} material={bodyMaterial} />
