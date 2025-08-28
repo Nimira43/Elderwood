@@ -6,7 +6,7 @@ import gsap from 'gsap'
 
 const Hero = () => {
   useGSAP(() => {
-    gsap.fromTo('.hero-text h1'),
+    gsap.fromTo('.hero-text h1',
       {
         y: 50,
         opacity: 0
@@ -15,7 +15,10 @@ const Hero = () => {
         y: 0,
         opacity: 1,
         stagger: 0.2,
-      }
+        duration: 5,
+        ease: 'power2.inOut'
+      },
+    )
   })
 
   return (
