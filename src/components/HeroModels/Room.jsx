@@ -6,7 +6,13 @@ export function Room(props) {
   const matcapTexture = useTexture('/images/textures/mat1.png')
   const { nodes, materials } = useGLTF('/models/optimized-room.glb')
 
-  const curtainMaterial = new THREE.MeshPhongMaterial({ color: '#d90429'})
+  const curtainMaterial = new THREE.MeshPhongMaterial({ 
+    color: '#d90429'
+  })
+
+  const bodyMaterial = new THREE.MeshPhongMaterial({ 
+    map: matcapTexture
+  })
 
   return (
     <group {...props} dispose={null}>
