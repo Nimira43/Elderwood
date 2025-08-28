@@ -13,20 +13,24 @@ export function Room(props) {
   const bodyMaterial = new THREE.MeshPhongMaterial({ 
     map: matcapTexture
   })
-  const bodyMaterial = new THREE.MeshPhongMaterial({ 
-    map: matcapTexture
+
+  const tableMaterial = new THREE.MeshPhongMaterial({ 
+    color: '#582f0e'
   })
-  const bodyMaterial = new THREE.MeshPhongMaterial({ 
-    map: matcapTexture
+  const radiatorMaterial = new THREE.MeshPhongMaterial({ 
+    color: '#fff'
   })
-  const bodyMaterial = new THREE.MeshPhongMaterial({ 
-    map: matcapTexture
+  
+  const compMaterial = new THREE.MeshPhongMaterial({ 
+    color: '#fff'
   })
-  const bodyMaterial = new THREE.MeshPhongMaterial({ 
-    map: matcapTexture
+
+  const pillowMaterial = new THREE.MeshPhongMaterial({ 
+    color: '#8338ec'
   })
-  const bodyMaterial = new THREE.MeshPhongMaterial({ 
-    map: matcapTexture
+
+  const chairMaterial = new THREE.MeshPhongMaterial({ 
+    color: '#000'
   })
 
   return (
