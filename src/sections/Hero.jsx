@@ -70,6 +70,7 @@ const Hero = () => {
           </div>
         </figure>
       </div>
+      
     </section>
   )
 }
