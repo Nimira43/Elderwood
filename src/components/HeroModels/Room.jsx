@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import * as THREE from 'three'
 import { useGLTF, useTexture } from '@react-three/drei'
 import { EffectComposer, SelectiveBloom } from '@react-three/postprocessing'
+import { BlendFunction } from 'postprocessing'
 
 export function Room(props) {
   const matcapTexture = useTexture('/images/textures/mat1.png')
   const { nodes, materials } = useGLTF('/models/optimized-room.glb')
+  const screensRef = useRef()
 
   const curtainMaterial = new THREE.MeshPhongMaterial({ 
     color: '#d90429'
@@ -36,7 +38,15 @@ export function Room(props) {
 
   return (
     <group {...props} dispose={null}>
-      <Effec
+      <EffectComposer>
+        <SelectiveBloom 
+          selection={screensRef}
+          intensity={1.5}
+          luminanceThreshold={0.2}
+          luminanceSmoothing={0.9}
+          blendFunction={BlendFunction.ADD}
+        />
+      </EffectComposer>
       <mesh geometry={nodes._________6_blinn1_0.geometry} material={curtainMaterial} />
       
       <mesh geometry={nodes.body1_blinn1_0.geometry} material={bodyMaterial} />
