@@ -1,4 +1,5 @@
 import React from 'react'
+import { counterItems } from '../constants'
 
 const AnimatedCounter = () => {
   return (
