@@ -15,6 +15,16 @@ const ShowcaseSection = () => {
               <p className='text-white-50 md:text-xl'>Navigate treacherous corridors, evade cunning traps, and uncover the secrets buried deep within an ancient maze of nightmares.</p>
             </div>
           </div>
+          <div className='project-list-wrapper overflow-hidden'>
+            <div className='project'>
+              <div>
+                <img
+                  src='/images/image-2.png'
+                  alt='The Labyrinth - 2'
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>     
     </div>
