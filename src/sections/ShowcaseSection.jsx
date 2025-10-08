@@ -15,7 +15,10 @@ const ShowcaseSection = () => {
       <div className='w-full'>
         <h1 className='text-white text-5xl text-center font-semibold pb-20'>The Labyrinth</h1>
         <div className='showcaselayout'>
-          <div className='first-project-wrapper'>
+          <div 
+            ref={projectRef1}
+            className='first-project-wrapper'
+          >
             <div className='image-wrapper'>
               <img 
                 className='border border-white'
@@ -29,7 +32,10 @@ const ShowcaseSection = () => {
             </div>
           </div>
           <div className='project-list-wrapper overflow-hidden'>
-            <div className='project'>
+            <div 
+              ref={projectRef2}
+              className='project'
+            >
               <div className='image-wrapper'>
                 <img
                   className='border border-white'
@@ -39,7 +45,10 @@ const ShowcaseSection = () => {
               </div>
               <h2 className='text-center'>Out on PS5, Xbox and Steam</h2>
             </div>
-            <div className='project'>
+            <div 
+              ref={projectRef3}
+              className='project'
+            >
               <div className='image-wrapper'>
                 <img
                   className='border border-white'
