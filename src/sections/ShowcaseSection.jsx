@@ -11,32 +11,6 @@ const ShowcaseSection = () => {
   const projectRef2 = useRef(null)
   const projectRef3 = useRef(null)
 
-  const projects = [
-    projectRef1.current,
-    projectRef2.current,
-    projectRef3.current,
-  ]
-
-  projects.forEach((card, index) => {
-    gsap.fromTo(
-      card,
-      {
-        y: 50, 
-        opacity: 0
-      },
-      {
-        y: 0, 
-        opacity: 1,
-        duration: 1,
-        delay: 0.3 * (index + 1),
-        scrollTrigger: {
-          trigger: card,
-          start: 'top bottom -= 100'
-        },
-      },
-    )
-  })
-  
   useGSAP(() => {
     gsap.fromTo(
       sectionRef.current, {
@@ -46,6 +20,33 @@ const ShowcaseSection = () => {
         duration: 1.5
       }
     )
+
+    const projects = [
+      projectRef1.current,
+      projectRef2.current,
+      projectRef3.current,
+    ]
+
+    projects.forEach((card, index) => {
+      gsap.fromTo(
+        card,
+        {
+          y: 50, 
+          opacity: 0
+        },
+        {
+          y: 0, 
+          opacity: 1,
+          duration: 1,
+          delay: 0.3 * (index + 1),
+          scrollTrigger: {
+            trigger: card,
+            start: 'top bottom -= 100'
+          },
+        },
+      )
+    })
+    
   }, [])
 
   return (
