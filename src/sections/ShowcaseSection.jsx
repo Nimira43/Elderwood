@@ -1,4 +1,5 @@
 import { useRef } from 'react'
+import { gsap } from 'gsap'
 
 const ShowcaseSection = () => {
   const sectionRef = useRef(null)
