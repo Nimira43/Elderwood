@@ -12,7 +12,14 @@ const ShowcaseSection = () => {
   const projectRef3 = useRef(null)
 
   useGSAP(() => {
-
+    gsap.fromTo(
+      sectionRef.current, {
+        opacity: 0
+      }, {
+        opacity: 1,
+        duration: 1.5
+      }
+    )
   }, [])
 
   return (
