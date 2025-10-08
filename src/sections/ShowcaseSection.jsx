@@ -11,6 +11,10 @@ const ShowcaseSection = () => {
   const projectRef2 = useRef(null)
   const projectRef3 = useRef(null)
 
+  useGSAP(() => {
+
+  }, [])
+
   return (
     <section 
       id='work' 
