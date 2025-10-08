@@ -1,10 +1,17 @@
 import { useRef } from 'react'
 
 const ShowcaseSection = () => {
-  const sectionRef = useRef
+  const sectionRef = useRef(null)
+  const projectRef1 = useRef(null)
+  const projectRef2 = useRef(null)
+  const projectRef3 = useRef(null)
 
   return (
-    <div id='work' className='app-showcase'>
+    <section 
+      id='work' 
+      ref={sectionRef}
+      className='app-showcase'
+    >
       <div className='w-full'>
         <h1 className='text-white text-5xl text-center font-semibold pb-20'>The Labyrinth</h1>
         <div className='showcaselayout'>
@@ -45,7 +52,7 @@ const ShowcaseSection = () => {
           </div>
         </div>
       </div>     
-    </div>
+    </section>
   )
 }
 
