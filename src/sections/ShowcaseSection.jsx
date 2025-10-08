@@ -20,6 +20,14 @@ const ShowcaseSection = () => {
   cards.forEach((card, index) => {
     gsap.fromTo(
       card,
+      {
+        y: 50, 
+        opacity: 0
+      },
+      {
+        y: 0, 
+        opacity: 1
+      },
     )
   })
   
