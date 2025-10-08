@@ -1,4 +1,8 @@
+import { useRef } from 'react'
+
 const ShowcaseSection = () => {
+  const sectionRef = useRef
+
   return (
     <div id='work' className='app-showcase'>
       <div className='w-full'>
