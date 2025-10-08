@@ -17,7 +17,7 @@ const ShowcaseSection = () => {
     projectRef3.current,
   ]
 
-  cards.forEach((card, index) => {
+  projects.forEach((card, index) => {
     gsap.fromTo(
       card,
       {
