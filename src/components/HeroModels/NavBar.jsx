@@ -1,6 +1,9 @@
+import { useState } from 'react'
 import { navLinks } from '../../constants'
 
 const NavBar = () => {
+  const [scrolled, setScrolled] = useState(false)
+
   return (
     <header className='navbar'>
       <div className='inner'>
