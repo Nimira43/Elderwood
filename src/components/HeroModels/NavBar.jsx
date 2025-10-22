@@ -12,7 +12,14 @@ const NavBar = () => {
         </a>
         <nav className='desktop'>
           <ul>
-            {navLinks}
+            {navLinks.map(({ link, name}) => (
+              <li
+                key={name}
+                className='group'
+              >
+                
+              </li>
+            ))}
           </ul>
         </nav>
         <a 
