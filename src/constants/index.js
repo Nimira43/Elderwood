@@ -8,8 +8,8 @@ const navLinks = [
     link: '#experience',
   },
   {
-    name: 'Features',
-    link: '#features',
+    name: 'Skills',
+    link: '#skills',
   },
   {
     name: 'Testimonials',

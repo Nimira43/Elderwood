@@ -51,7 +51,7 @@ const ShowcaseSection = () => {
 
   return (
     <section 
-      id='work' 
+      id='projects' 
       ref={sectionRef}
       className='app-showcase'
     >

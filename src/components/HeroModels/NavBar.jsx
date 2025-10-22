@@ -17,7 +17,10 @@ const NavBar = () => {
                 key={name}
                 className='group'
               >
-                
+                <a href={link}>
+                  <span>{name}</span>
+                  <span className='underline' />
+                </a>
               </li>
             ))}
           </ul>
