@@ -1,8 +1,15 @@
 const NavBar = () => {
   return (
-    <div>
-      Navbar
-    </div>
+    <header className='navbar'>
+      <div className='inner'>
+        <a 
+          href="#hero" 
+          className='logo logo-text'
+        >
+          NimiraTech
+        </a>
+      </div>
+    </header>
   )
 }
 
