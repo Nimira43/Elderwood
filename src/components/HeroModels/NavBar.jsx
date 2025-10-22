@@ -1,3 +1,5 @@
+import { navLinks } from "../../constants"
+
 const NavBar = () => {
   return (
     <header className='navbar'>
