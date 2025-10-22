@@ -4,6 +4,12 @@ import { navLinks } from '../../constants'
 const NavBar = () => {
   const [scrolled, setScrolled] = useState(false)
 
+  useEffect(() => {
+    const handleScroll = () => {
+
+    }
+  }, [])
+
   return (
     <header className='navbar'>
       <div className='inner'>
