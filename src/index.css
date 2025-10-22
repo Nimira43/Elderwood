@@ -25,6 +25,7 @@ section {
 
 .logo-text {
   font-family: 'Bitcount Grid Single', system-ui;
+  /* font-size: 2rem; */
 }
 
 @theme {

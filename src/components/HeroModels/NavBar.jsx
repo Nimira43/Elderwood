@@ -8,6 +8,15 @@ const NavBar = () => {
         >
           NimiraTech
         </a>
+        <nav className='desktop'>
+
+        </nav>
+        <a 
+          href="#contact"
+          className='contact-btn group'  
+        >
+
+        </a>
       </div>
     </header>
   )
