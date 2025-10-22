@@ -4,12 +4,14 @@ const NavBar = () => {
       <div className='inner'>
         <a 
           href="#hero" 
-          className='logo logo-text'
+          className='logo logo-text '
         >
           NimiraTech
         </a>
         <nav className='desktop'>
-
+          <ul>
+            {navLinks}
+          </ul>
         </nav>
         <a 
           href="#contact"
