@@ -35,8 +35,45 @@ const counterItems = [
   { value: 95, suffix: '%', label: 'Client Retention Rate'},
 ]
 
+const logoIconsList = [
+  {
+    imgPath: '/images/logos/logo-01.png',
+  },
+  {
+    imgPath: '/images/logos/logo-02.png',
+  },
+  {
+    imgPath: '/images/logos/logo-03.png',
+  },
+  {
+    imgPath: '/images/logos/logo-04.png',
+  },
+  {
+    imgPath: '/images/logos/logo-05.png',
+  },
+  {
+    imgPath: '/images/logos/logo-06.png',
+  },
+  {
+    imgPath: '/images/logos/logo-07.png',
+  },
+  {
+    imgPath: '/images/logos/logo-08.png',
+  },
+  {
+    imgPath: '/images/logos/logo-09.png',
+  },
+  {
+    imgPath: '/images/logos/logo-10.png',
+  },
+  {
+    imgPath: '/images/logos/logo-11.png',
+  },
+]
+
 export {
   navLinks,
   words,
   counterItems,
+  logoIconsList
 }

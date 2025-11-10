@@ -1,3 +1,5 @@
+import { logoIconsList } from '../constants'
+
 export default function LogoSection() {
   return (
     <div className='md:my-20 my-10 relative'>
@@ -7,7 +9,7 @@ export default function LogoSection() {
 
       <div className='marquee h-52'>
         <div className='marquee-box md:gap-12 gap-5'>
-          
+          {/* {logoIconsList} */}
         </div>
       </div>
     </div>
