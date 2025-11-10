@@ -9,7 +9,9 @@ export default function LogoSection() {
 
       <div className='marquee h-52'>
         <div className='marquee-box md:gap-12 gap-5'>
-          {/* {logoIconsList} */}
+          {logoIconsList.map((icon) => {
+            
+          })}
         </div>
       </div>
     </div>
