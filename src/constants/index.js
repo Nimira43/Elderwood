@@ -73,12 +73,12 @@ const logoIconsList = [
 
 const projects = [
   {
-    imgPath: '/images/knight-coders.png',
+    imgPath: '/images/utility-img.png',
     title: 'Knight Coders',
     desc: 'Discover programming opportunities with Knight Coders, a streamlined job listing hub for developers worldwide.',
   },
   {
-    imgPath: '/images/chat.png',
+    imgPath: '/images/progamers.png',
     title: 'Pro Gamers',
     desc: 'Connect, form teams, and collaborate with Pro Gamers — a social platform built for cooperative gaming adventures.',
   },
@@ -86,6 +86,11 @@ const projects = [
     imgPath: '/images/thalassia.png',
     title: 'Thalassia',
     desc: 'Shop quickly and efficiently with Thalassia, an e-commerce store offering fast delivery and mythic branding touches.',
+  },
+  {
+    imgPath: '/images/utility-img.png',
+    title: 'Claros',
+    desc: 'Claros delivers a lightweight WebSocket server, fully compliant with RFC 6455, enabling seamless real-time communication.',
   },
 ]
 
