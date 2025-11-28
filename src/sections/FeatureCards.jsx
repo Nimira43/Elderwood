@@ -1,6 +1,10 @@
 const FeatureCards = () => {
   return ( 
-    <div>FeatureCards</div>
+    <div className='w-full padding-g-lg'>
+      <div className='mx-auto grid-3-col'>
+        {}
+      </div>
+    </div>
   )
 }
  
