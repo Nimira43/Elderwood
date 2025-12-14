@@ -56,12 +56,12 @@ const Hero = () => {
               <h1>Evolving Digital World.</h1>
             </div>
             <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
-              Hi, I'm Nick, a developer from England with a love for coding.
+              Hi, we've <span className='logo-text'>NimiraTech</span>, software developers from England with a love for coding.
             </p>
             <Button
               className='md:w-80 md:h-16 w-60 h-12'
               id='button'
-              text='See my Work'
+              text='See Our Work'
             />
           </div>
         </header>
