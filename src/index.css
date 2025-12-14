@@ -7,6 +7,7 @@
     #e5e5e5 0%, 
     #fff 100%
   );
+  --main: #ff4500;
 }
 
 html,
@@ -25,7 +26,8 @@ section {
 
 .logo-text {
   font-family: 'Bitcount Grid Single', system-ui;
-  /* font-size: 2rem; */
+  font-size: 1.2rem;
+  color: var(--main);
 }
 
 @theme {
@@ -94,7 +96,7 @@ section {
   }
 
   .hero-text {
-    @apply flex flex-col justify-center md:text-[60px] text-[30px] font-semibold relative z-10 pointer-events-none;
+    @apply flex flex-col justify-center md:text-[60px] text-[30px] font-medium relative z-10 pointer-events-none;
 
     img {
       @apply size-8 md:size-10 object-contain;
@@ -129,7 +131,7 @@ section {
     }
 
     .logo {
-      @apply text-white-50 text-xl md:text-2xl font-semibold transition-transform duration-300 hover:scale-105;
+      @apply text-white-50 text-xl md:text-2xl font-medium transition-transform duration-300 hover:scale-105;
     }
 
     nav.desktop {
@@ -191,7 +193,7 @@ section {
         }
 
         h2 {
-          @apply text-2xl md:text-3xl lg:text-4xl font-bold;
+          @apply text-2xl md:text-3xl lg:text-4xl font-medium;
         }
       }
     }
@@ -208,7 +210,7 @@ section {
       }
 
       h2 {
-        @apply text-lg md:text-xl lg:text-2xl font-semibold mt-5;
+        @apply text-lg md:text-xl lg:text-2xl font-medium mt-5;
       }
     }
   }
@@ -273,7 +275,7 @@ section {
     @apply flex flex-col md:justify-center items-center xl:gap-5 xl:h-[50vh] overflow-hidden relative z-10 group-hover:cursor-grab;
 
     & p {
-      @apply text-lg 2xl:text-2xl pb-5 xl:pb-0 font-semibold text-white-50 text-center;
+      @apply text-lg 2xl:text-2xl pb-5 xl:pb-0 font-medium text-white-50 text-center;
     }
   }
 

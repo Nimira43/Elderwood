@@ -56,7 +56,7 @@ const ShowcaseSection = () => {
       className='app-showcase'
     >
       <div className='w-full'>
-        <h1 className='text-white text-5xl text-center font-semibold pb-20'>The Labyrinth</h1>
+        <h1 className='text-white text-5xl text-center font-medium pb-20'>The Labyrinth</h1>
         <div className='showcaselayout'>
           <div 
             ref={projectRef1}
