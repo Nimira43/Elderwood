@@ -11,6 +11,11 @@ const ExperienceSection = () => {
           title='Professional Projects'
           sub='An overview of our work to date.'
         />
+        <div className='mt-32 relative'>
+          <div className='relative z-50 xl:space-y-32 space-y-10'>
+        
+          </div>
+        </div>
       </div>  
     </section>
   )
