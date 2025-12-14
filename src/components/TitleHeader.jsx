@@ -1,7 +1,9 @@
-const TitleHeader = () => {
+const TitleHeader = ({title, sub}) => {
   return (
-    <div>
-      Title Header
+    <div className='flex flex-col items-center gap-5'>
+      <div className='hero-badge'>
+        <p>{sub}</p>
+      </div>
     </div>
   )
 }

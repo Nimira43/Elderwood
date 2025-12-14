@@ -106,7 +106,7 @@ section {
   }
 
   .hero-badge {
-    @apply bg-black-200 py-2 px-4 rounded-full w-fit text-sm md:text-base text-nowrap;
+    @apply bg-[#111] py-2 px-4 rounded-md w-fit text-sm md:text-base text-nowrap;
   }
 
   .hero-3d-layout {
