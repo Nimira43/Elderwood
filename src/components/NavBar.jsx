@@ -28,7 +28,7 @@ const NavBar = () => {
           href="#hero" 
           className='logo logo-text '
         >
-          NimiraTech
+          Elderwood
         </a>
         <nav className='desktop'>
           <ul>

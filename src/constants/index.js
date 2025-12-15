@@ -94,11 +94,54 @@ const projects = [
   },
 ]
 
+const expCards = [
+  {
+    review:
+      "A remarkably polished authentication system that showcases Elderwood’s precision engineering. Nick’s team delivered seamless security, intuitive workflows and reliability that feels enterprise‑grade from the first interaction.",
+    imgPath: '/images/exp1.png',
+    logoPath: '/images/logo1.png',
+    title: 'Gnosis',
+    releasedDate: 'March 2024',
+    description: [
+      'Secure authentication flows designed for seamless integration across applications.',
+      'Lightweight architecture ensuring rapid performance under heavy concurrent load.',
+      'Robust auditing tools providing clear insights into user access patterns.',
+    ],
+  },
+  {
+    review:
+      "Claros demonstrates Elderwood’s technical discipline, offering stable real‑time performance and clean tooling. Lenny’s influence is clear in its thoughtful architecture and developer‑friendly design.",
+    imgPath: '/images/exp2.png',
+    logoPath: '/images/logo2.png',
+    title: 'Claros',
+    date: 'December 2024',
+    description: [
+      'High performance WebSocket engine supporting scalable real time communication.',
+      'Standards compliant protocol handling ensuring consistent behaviour across clients.',
+      'Developer focused utilities simplifying debugging, monitoring and connection management.',
+    ],
+  },
+  {
+    review:
+      "Albion blends refined aesthetics with flawless performance. You can see Elderwood’s hallmarks throughout, and Chris’s attention to detail elevates the entire shopping experience.",
+    imgPath: '/images/exp3.png',
+    logoPath: '/images/logo3.png',
+    title: 'Albion',
+    date: 'September 2025',
+    description: [
+      'Premium storefront layout showcasing luxury fashion with refined visual styling.',
+      'Optimised checkout flow delivering fast secure transactions for global customers.',
+      'Dynamic product management tools enabling effortless updates and seasonal collections.',
+    ],
+  },
+]
+
 
 export {
   navLinks,
   words,
   counterItems,
   logoIconsList,
-  projects
+  projects,
+  expCards
 }
