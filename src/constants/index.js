@@ -136,7 +136,6 @@ const expCards = [
   },
 ]
 
-
 export {
   navLinks,
   words,
