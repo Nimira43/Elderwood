@@ -23,7 +23,8 @@ const ExperienceSection = () => {
                   <GlowCard>
                     <div>
                       <img
-                        
+                        src={card.imgPath}
+                        alt={card.title}
                       />
                     </div>
                   </GlowCard>
