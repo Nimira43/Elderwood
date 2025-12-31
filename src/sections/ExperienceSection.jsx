@@ -1,4 +1,5 @@
 import TitleHeader from '../components/TitleHeader'
+import { expCards } from '../constants'
 
 const ExperienceSection = () => {
   return (
@@ -13,7 +14,13 @@ const ExperienceSection = () => {
         />
         <div className='mt-32 relative'>
           <div className='relative z-50 xl:space-y-32 space-y-10'>
-            To do
+            {expCards.map((card) => (
+              <div
+
+              >
+
+              </div>
+            ))}
           </div>
         </div>
       </div>  
