@@ -19,7 +19,15 @@ const ExperienceSection = () => {
                 key={card.title}
                 className='exp-card-wrapper'
               >
-                {card.title}
+                <div className='xl:w-2/6'>
+                  <GlowCard>
+                    <div>
+                      <img
+                        
+                      />
+                    </div>
+                  </GlowCard>
+                </div>
               </div>
             ))}
           </div>
