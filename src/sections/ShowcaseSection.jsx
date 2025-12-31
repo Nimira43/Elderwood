@@ -65,7 +65,7 @@ const ShowcaseSection = () => {
             <div className='image-wrapper'>
               <img 
                 className='border border-white'
-                src='/images/image-1.png' 
+                src='/images/labyrinth/image-1.png' 
                 alt="The Labyrinth - 1" 
               />
             </div>
@@ -82,7 +82,7 @@ const ShowcaseSection = () => {
               <div className='image-wrapper'>
                 <img
                   className='border border-white'
-                  src='/images/image-2.png'
+                  src='/images/labyrinth/image-2.png'
                   alt='The Labyrinth - 2'
                 />
               </div>
@@ -95,7 +95,7 @@ const ShowcaseSection = () => {
               <div className='image-wrapper'>
                 <img
                   className='border border-white'
-                  src='/images/image-3.png'
+                  src='/images/labyrinth/image-3.png'
                   alt='The Labyrinth - 3'
                 />
               </div>
