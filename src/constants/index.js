@@ -98,7 +98,7 @@ const expCards = [
   {
     review:
       "A remarkably polished authentication system that showcases Elderwood's precision engineering. Nick's team delivered seamless security, intuitive workflows and reliability that feels enterprise-grade from the first interaction.",
-    imgPath: '/images/logos/logo-07.png',
+    imgPath: '/images/exp-cards/logo-2.png',
     title: 'Gnosis',
     releasedDate: 'March 2025',
     description: [
@@ -111,7 +111,7 @@ const expCards = [
   {
     review:
       "Albion blends refined aesthetics with flawless performance. You can see Elderwood's hallmarks throughout, and Chris's attention to detail elevates the entire shopping experience.",
-    imgPath: '/images/logos/logo-01.png',
+    imgPath: '/images/exp-cards/logo-1.png',
     title: 'Albion',
     date: 'September 2025',
     description: [
@@ -123,7 +123,7 @@ const expCards = [
   {
     review:
       "Claros demonstrates Elderwood's technical discipline, offering stable real-time performance and clean tooling. Lenny's influence is clear in its thoughtful architecture and developer-friendly design.",
-    imgPath: '/images/logos/logo-03.png',
+    imgPath: '/images/exp-cards/logo-3.png',
     title: 'Claros',
     date: 'December 2024',
     description: [
