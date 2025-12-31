@@ -97,7 +97,7 @@ const projects = [
 const expCards = [
   {
     review:
-      "A remarkably polished authentication system that showcases Elderwood’s precision engineering. Nick’s team delivered seamless security, intuitive workflows and reliability that feels enterprise‑grade from the first interaction.",
+      "A remarkably polished authentication system that showcases Elderwood's precision engineering. Nick's team delivered seamless security, intuitive workflows and reliability that feels enterprise-grade from the first interaction.",
     imgPath: '/images/exp1.png',
     logoPath: '/images/logo1.png',
     title: 'Gnosis',
@@ -110,7 +110,7 @@ const expCards = [
   },
   {
     review:
-      "Claros demonstrates Elderwood’s technical discipline, offering stable real‑time performance and clean tooling. Lenny’s influence is clear in its thoughtful architecture and developer‑friendly design.",
+      "Claros demonstrates Elderwood's technical discipline, offering stable real-time performance and clean tooling. Lenny's influence is clear in its thoughtful architecture and developer-friendly design.",
     imgPath: '/images/exp2.png',
     logoPath: '/images/logo2.png',
     title: 'Claros',
@@ -123,7 +123,7 @@ const expCards = [
   },
   {
     review:
-      "Albion blends refined aesthetics with flawless performance. You can see Elderwood’s hallmarks throughout, and Chris’s attention to detail elevates the entire shopping experience.",
+      "Albion blends refined aesthetics with flawless performance. You can see Elderwood's hallmarks throughout, and Chris's attention to detail elevates the entire shopping experience.",
     imgPath: '/images/exp3.png',
     logoPath: '/images/logo3.png',
     title: 'Albion',
