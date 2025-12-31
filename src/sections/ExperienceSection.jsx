@@ -21,7 +21,7 @@ const ExperienceSection = () => {
                 className='exp-card-wrapper'
               >
                 <div className='xl:w-2/6'>
-                  <GlowCard>
+                  <GlowCard card={card}>
                     <div>
                       <img
                         src={card.imgPath}
