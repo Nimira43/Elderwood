@@ -33,18 +33,25 @@ const ExperienceSection = () => {
                     </div>
                   </GlowCard>
                 </div>
-                <div className='xl:4/6'>
-                  <div className='flex items-start'>
-                    <div className='timeline-wrapper'>
-                      <div className='timeline' />
-                      <div className='gradient-line w-1 h-full' />
-                    </div>
-                    <div className='expText flex xl:gap-20 md:gap-10 gap-5 relative z-20'>
-                      <div className='timeline-logo'>
-                        <span>
-                          <card.logoPath className='w-6 h-6 text-white' />
-                        </span>
-                      </div>
+                <div className="xl:w-4/6 w-full">
+                <div className="flex gap-6 relative">
+                  <div className="flex flex-col items-center">
+                    <div className="w-1 bg-gradient-to-b from-white/20 to-white/0 rounded-full h-full" />
+                  </div> 
+                    <div className="flex flex-col gap-6 relative z-20">
+                      <h1 className="font-semibold text-3xl">
+                        {card.title}
+                      </h1>
+                      <p className="text-white-50 text-lg">
+                        {card.date}
+                      </p>
+                      <ul className="list-disc ms-5 flex flex-col gap-4 text-white-50">
+                        {card.description.map((desc, index) => (
+                          <li key={index} className="text-lg leading-relaxed">
+                            {desc}
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   </div>
                 </div>
