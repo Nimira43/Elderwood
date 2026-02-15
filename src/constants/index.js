@@ -100,7 +100,7 @@ const expCards = [
       "A remarkably polished authentication system that showcases Elderwood's precision engineering. Nick's team delivered seamless security, intuitive workflows and reliability that feels enterprise-grade from the first interaction.",
     imgPath: '/images/exp-cards/logo-3.png',
     title: 'Gnosis',
-    date: 'March 2025',
+    date: 'September 2025',
     description: [
       'Secure authentication flows designed for seamless integration across applications.',
       'Lightweight architecture ensuring rapid performance under heavy concurrent load.',
@@ -112,7 +112,7 @@ const expCards = [
       "Albion blends refined aesthetics with flawless performance. You can see Elderwood's hallmarks throughout, and Chris's attention to detail elevates the entire shopping experience.",
     imgPath: '/images/exp-cards/logo-1.png',
     title: 'Albion',
-    date: 'September 2025',
+    date: 'April 2025',
     description: [
       'Premium storefront layout showcasing luxury fashion with refined visual styling.',
       'Optimised checkout flow delivering fast secure transactions for global customers.',
